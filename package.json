@@ -1,0 +1,19 @@
+{
+  "name": "archerjs",
+  "version": "1.0.0",
+  "description": "The perfect framework for making web apps",
+  "main": "/src/archer.js",
+  "scripts": {
+    "test": "echo We hope you have a good time with Archer",
+    "start-server": "node server.js"
+  },
+  "keywords": [
+    "Web",
+    "Web App"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "open": "^7.0.0"
+  }
+}
