@@ -9,7 +9,7 @@ To make a component do this:
 
 ```javascript
   Archer.component("cool-button", {
-    template: "<button>I'm cool!</button>
+    template: "<button>I'm cool!</button>",
   });
 ```
 
