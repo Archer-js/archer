@@ -397,7 +397,7 @@ var Archer = {
 })();
 
 
-if(module.exports){
+if(module && module.exports){
 
     module.exports = Archer;
 
