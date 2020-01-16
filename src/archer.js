@@ -395,3 +395,22 @@ var Archer = {
     };
 
 })();
+
+
+if(module.exports){
+
+    module.exports = Archer;
+
+}else if(typeof define === "function" && define.amd){
+
+    define("archer", function(){
+
+        return Archer;
+
+    });
+
+}else if(window && typeof window === "object"){
+
+    window.Archer = Archer;
+
+}
